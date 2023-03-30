@@ -1,0 +1,45 @@
+.logo_s{
+    height: 50px;
+    width: 50px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 55px;
+    width: 150px;
+    height: 100%;
+    background-image: url("../img/sidebar-bg.png");
+}
+.navbar{
+    height: 55px;
+}
+.main_content {
+    width: calc(100% - 150px);
+    height: calc(100vh - 55px);
+    margin-left: 150px;
+    margin-top: 55px;
+    background-color: lightgrey;
+    overflow-y: auto;
+} 
+/* .bi-plus{
+    
+    padding: 5px;
+    background-color: navy;
+    border-radius: 100%;
+} */
+@media (max-width: 990px) {
+
+
+    .sidebar {
+        width: 70px;
+    }
+    .main_content {
+        width: 100%;
+        margin-left: 70px;
+       
+    }
+
+  
+}
