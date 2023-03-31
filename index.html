@@ -30,19 +30,19 @@
                             <i class="px-1 mb-1 fa-solid fa-bell align-middle" style="color: orange;"></i>
                         </div>
                         <ul class="dropdown-menu dropdown-menu-end">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Action two</a></li>
-                          <li><a class="dropdown-item" href="#">Action three</a></li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Action two</a></li>
+                            <li><a class="dropdown-item" href="#">Action three</a></li>
                         </ul>
-                    </div>    
-                    
-                    
-                      <!-- <i class="px-1 fa-solid fa-bell align-middle" style="color: orange;"></i> -->
+                    </div>
+
+
+                    <!-- <i class="px-1 fa-solid fa-bell align-middle" style="color: orange;"></i> -->
                 </div>
             </div>
         </nav>
     </div>
-    <div class="sidebar col-auto bg-dark text-white">
+    <div class="sidebar bg-dark text-white">
         <div class="nav_buttons mt-3">
             <ul>
                 <li class="list-group-item py-1"><i class="fa-solid fa-house me-3"></i>
@@ -62,7 +62,7 @@
                     <span class="d-none d-lg-inline">Admin</span>
                 </li>
             </ul>
-        </div> 
+        </div>
     </div>
     <div class="main_content">
         <div class="bar-header bg-primary text-light ">
@@ -71,7 +71,79 @@
                     <div class="col-lg-3 col-md-4 order-md-3 pt-2 ">
                         <div class="">
                             <span>Nuovo Studente</span>
-                            <span><i class="fa-solid fa-plus p-2 ms-3 border"></i></span>
+
+                            <span class="" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                aria-controls="offcanvasRight"><i class="fa-solid fa-plus p-2 ms-3 border"></i></span>
+
+                            <div class="offcanvas offcanvas-end w-100 d-lg-offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <form class="row g-3">
+
+                                        <div class="col-6">
+                                            <label for="name">Name</label>
+                                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                        </div>
+    
+                                        <div class="col-6">
+                                            <label for="LastName">Last Name</label>
+                                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                        </div>
+                                              
+    
+                                        <div class="col-md-6">
+                                            <label for="inputEmail4" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+    
+                                        <div class="col-md-6">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+    
+                                        <div class="col-12">
+                                            <label for="inputAddress" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                        </div>
+    
+                                        <div class="col-md-6">
+                                            <label for="inputCity" class="form-label">Citta</label>
+                                            <input type="text" class="form-control" id="inputCity">
+                                        </div>
+    
+                                        <div class="col-md-4">
+                                            <label for="inputState" class="form-label">Stato</label>
+                                            <select id="inputState" class="form-select">
+                                                <option selected>Scegli file</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+    
+                                        <div class="col-md-2">
+                                            <label for="inputZip" class="form-label">CAP</label>
+                                            <input type="text" class="form-control" id="inputZip">
+                                        </div>
+    
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label for="formFileSm" class="form-label">Small file input example</label>
+                                                <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary">Sign in</button>
+                                        </div>
+    
+                                    </form>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-4 pt-2">
@@ -82,9 +154,12 @@
                         <div class=" clo-12 mt-2">
                             <span class="badge rounded-pill border text-bg-primary">3 app</span>
                             <i class="bi bi-chevron-double-right "></i>
-                            <span class="badge d-none d-lg-inline rounded-pill border text-bg-primary">Boolean mobile app</span>
-                            <span class="badge  d-none d-lg-inline rounded-pill border text-bg-primary">Boolean web app</span>
-                            <span class="badge d-none d-lg-inline rounded-pill border text-bg-primary">Boolean blog app</span>
+                            <span class="badge d-none d-lg-inline rounded-pill border text-bg-primary">Boolean mobile
+                                app</span>
+                            <span class="badge  d-none d-lg-inline rounded-pill border text-bg-primary">Boolean web
+                                app</span>
+                            <span class="badge d-none d-lg-inline rounded-pill border text-bg-primary">Boolean blog
+                                app</span>
                             <i class="bi bi-plus bg-danger d-lg-none d-sm-inline rounded-circle fs-6"></i>
                         </div>
                     </div>
@@ -95,8 +170,19 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            
+            <div class="col-12 col-lg-8">
+
+            </div>
+
+        </div>
+
 
         <!-- fs-3 bg-black rounded-circle -->
+
+
+
 
 
     </div>

@@ -36,7 +36,7 @@
         width: 70px;
     }
     .main_content {
-        width: 100%;
+        width: calc(100% - 70px);
         margin-left: 70px;
        
     }
