@@ -1,3 +1,8 @@
+:root{
+    font-size: 0.85rem;
+}
+
+
 .logo_s{
     height: 50px;
     width: 50px;
@@ -21,9 +26,17 @@
     height: calc(100vh - 55px);
     margin-left: 150px;
     margin-top: 55px;
-    background-color: lightgrey;
+    background-color: #F8F9FA;
     overflow-x: hidden;
 } 
+.hover_side:hover{
+    cursor: pointer;
+    background-color: rgb(159, 159, 159);
+}
+tbody img {
+    height: 1.5rem;
+    
+}
 
 
 
